@@ -11,11 +11,14 @@
 </p>
 
 ----
-<div align="center">
-	<h1>Visit our official website to install the Whatsapp Bot :</h1>
-	<a href="https://heroku.com/deploy?template=https://github.com/BlackAmda/QueenAmdi-v3">
-<img src="https://images.squarespace-cdn.com/content/v1/580515742e69cfedd1fbef58/1525386767826-Z6T2PAXQD6PZJFNGY14U/ke17ZwdGBToddI8pDm48kGzbt7cz3CKX9Rsta-RdWeJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwXPcCdCfJzTjuw7eD5qoJaUvNnrlJ7-JqE3xnP9OqaaXMr3zNNd3H5Lklmgn1mB80/getbutton.png" width="400"></br></a>
-</div>
+
+## QR CODE
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@BlackAmda/Queen-Amdi-QR-Code)
+
+## Deploy OLD v3 Queen Amdi Bot
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/BlackAmda/QueenAmdi-v3)
+
+### [Note : This repo will never update or maintain by Team Queen Amdi]
 
 <p align="center">
   <a href="httsp://github.com/BlackAmda/QueenAmdi">
@@ -76,13 +79,6 @@ Install their own plugins to the original software and use as they please.
 Usage is entirely the responsibility of the user. The operating system is not responsible.
 HAVE A FUN!
 ```
-
-## Visit our official website to install the Whatsapp Bot :
-QR Code generator and full instructions available there.
-<div>
-	<a href="https://www.amdaniwasa.com">
-<img src="https://i.ibb.co/dr27VyW/59060c190cbeef0acff9a657.png" width="200"></br></a>
-</div>
 
 ## Queen Amdi Team
 
