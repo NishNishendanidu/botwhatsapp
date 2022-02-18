@@ -80,7 +80,7 @@ Usage is entirely the responsibility of the user. The operating system is not re
 HAVE A FUN!
 ```
 
-## Queen Amdi-X owner nishen 
+## king Amda-X⚡⚡-X owner nishen 
 
 <table>
 										<tbody>
