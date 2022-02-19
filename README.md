@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center">https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966
   <img src="https://i.ibb.co/r3wmpwr/LOGO.jpg" width="300" height="300">
   <h1⚡⚡king AMDA-X⚡⚡</h1>
 </div>
@@ -15,7 +15,7 @@
 ## QR CODE
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nishen/Queen-Amdi-QR-Code)
 
-## Deploy OLD v3 Queen Amdi Bot
+## Deploy ⚡⚡king AMDA-X⚡⚡
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/BlackAmda/QueenAmdi-v3)
 
 ### [Note : This repo will never update or maintain by Team Queen Amdi]
@@ -64,14 +64,14 @@
   </a>
   </p>
  <p align="center">
-  <a href="https://wa.me/94757405652">
+  <a href=
     <img src="https://img.shields.io/badge/Contact%20Me%20On%20Whatsapp-Queen%20Amdi%20Bot-purple&style=plastic">
 
   </a>
 </p>
 
 ```
-Queen Amdi bot is an UserBot for WhatsApp That allowing you to get done so many tasks.
+⚡⚡king AMDA-X⚡⚡ bot is an UserBot for WhatsApp That allowing you to get done so many tasks.
 The user is responsible for all possible consequences of misuse.
 This is not a Open-Source project. This is just a project that allow you to get deploy a bot.
 Additionally, it enables plug-in support for users.
