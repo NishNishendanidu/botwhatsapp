@@ -13,7 +13,7 @@
 ----
 
 ## QR CODE
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@BlackAmda/Queen-Amdi-QR-Code)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nishen/Queen-Amdi-QR-Code)
 
 ## Deploy OLD v3 Queen Amdi Bot
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/BlackAmda/QueenAmdi-v3)
