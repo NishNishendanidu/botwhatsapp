@@ -35,7 +35,7 @@
 ----
 
 ## QR CODE
-[![Run on Repl.it](https://replit.com/@NishenDanidu1/king-AMDA-X#index.js)](https://replit.com/@NishenDanidu1/king-AMDA-X#index.js)
+[![Run on Repl.it](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)]()
 
 ## Deploy ⚡⚡king AMDA-X⚡⚡
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/BlackAmda/QueenAmdi-v3)
