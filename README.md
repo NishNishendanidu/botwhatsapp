@@ -75,7 +75,7 @@ https://i.ibb.co/Z6XBp5j/Photo-1859807427.jpg
 
 ## QR CODE
 
-[![Run on Repl.it](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)
+[![Run on Repl.it](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)(https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)
 
 ## Deploy ⚡⚡king AMDA-X⚡⚡
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NishNishendanidu/botwhatsapp.git)
