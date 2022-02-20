@@ -21,7 +21,7 @@ async function king amda-X () {
     
     conn.on('🔄 connecting', async () => {
         console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold(' Amdi')}
-${chalk.white.italic('Queen Amdi Sting session')}
+${chalk.white.italic('Queen Amdi Sting se.ssion')}
 
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     });
