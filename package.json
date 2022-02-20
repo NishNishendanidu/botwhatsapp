@@ -1,28 +1,23 @@
 {
-  "name": "queen_amdi",
+  "name": "кιиg αм∂α-χ",
   "version": "3.0.2v",
-  "description": "Queen Amdi Bot project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./QueenAmdi/bot.js",
+  "description": "кιиg αм∂α-χ- a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./кιиg αм∂α-χ",
   "scripts": {
-    "start": "supervisor -s bot.js"
+    "start": "supervisor -s кιиg αм∂α-χ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackAmda/QueenAmdi.git"
+    "url": "git+"
   },
   "keywords": [
     "whatsapp"
   ],
-  "author": "Black Amda",
-  "developer": "AN Tech",
+  "author": "nishen",
+  "developer": "nishen",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/BlackAmda/QueenAmdi/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/BlackAmda/QueenAmdi#readme",
-  "dependencies": {
-    "queenamdi-public-2":"1.0.1",
-    "queenamdi-img": "1.0.0",
-    "queenamdi-textlogo-1.0.3": "1.0.3"
-  }
+  "
 }
