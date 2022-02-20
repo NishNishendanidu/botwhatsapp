@@ -33,19 +33,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/BlackAmda/QueenAmdi-v3)
 
 ### [Note : This repo will never update or maintain by nishen ]
-
-<p align="center">
-  <a href="httsp://github.com/BlackAmda/QueenAmdi">
-    <img src="https://img.shields.io/docker/pulls/blackamda/queenamdi?style=flat-square&label=Docker+Pulls">
-  </a>
-  <a href="https://github.com/BlackAmda/QueenAmdi">
-    <img src="https://img.shields.io/docker/image-size/blackamda/queenamdi?style=flat-square&logo=github&label=Image Size">
-    
-  </a>
-</p>
-
-<p align="center">
-
+ 
+    <img src="<a href="https://ibb.co/Km84jZg"><img src="https://i.ibb.co/Km84jZg/VYCjwSM.jpg" alt="VYCjwSM" border="0"></a>">
+  
   
 	
 	
