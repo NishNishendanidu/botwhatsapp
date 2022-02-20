@@ -2,11 +2,11 @@
     "name": "кιиg αм∂α-χ",
     "description": "кιиg αм∂α-χis a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
     "logo": "https://ibb.co/n6jyCpm"
-    "repository": "",
+    "repository": "https://github.com/NishNishendanidu/botwhatsapp.git",
     "website":   "https://dashboard.heroku.com/apps/",
     "success_url": "https://dashboard.heroku.com/apps/",
     "stack": "container",
-    "env": {
+    
         "kingamdax_SESSION": {
             "description": "Paste your QR session that you got from https://replit.com/@shenbro/kingamda-x QR-Code.",
             "required": true
