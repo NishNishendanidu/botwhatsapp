@@ -1,7 +1,7 @@
 {
     "name": "кιиg αм∂α-χ",
     "description": "кιиg αм∂α-χis a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
-    "logo": "<a     "
+    "logo": "https://ibb.co/n6jyCpm"
     "repository": "",
     "website":   "https://dashboard.heroku.com/apps/",
     "success_url": "https://dashboard.heroku.com/apps/",
@@ -97,7 +97,7 @@
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
             "value": "https://ibb.co/n6jyCpm"
-            "
+            
         },
         "BYE_LOGO": {
             "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
