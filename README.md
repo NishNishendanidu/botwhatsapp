@@ -18,7 +18,7 @@
      
      
      
-  <a href="https://ibb.co/Km84jZg"><img src="https://i.ibb.co/Km84jZg/VYCjwSM.jpg" alt="VYCjwSM" border="0"></a>
+  <a href="https://ibb.co/Km84jZg"><img src="https://i.ibb.co/Km84jZg/VYCjwSM.jpg" alt="VYCjwSM" border="300"></a>
 
 
 
