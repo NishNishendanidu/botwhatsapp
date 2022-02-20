@@ -1,14 +1,14 @@
 {
-    "name": "Queen Amdi 3.0.2v",
-    "description": "Queen Amdi is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/r3wmpwr/LOGO.jpg",
-    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Queen Amdi"],
+    "name": "кιиg αм∂α-χ",
+    "description": "кιиg αм∂α-χis a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
+    "logo": "<a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="0"></a>",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "кιиg αм∂α-χ"],
     "repository": "",
     "website":   "https://dashboard.heroku.com/apps/",
     "success_url": "https://dashboard.heroku.com/apps/",
     "stack": "container",
     "env": {
-        "AMDI_SESSION": {
+        "кιиg αм∂α-χ_SESSION": {
             "description": "Paste your QR session that you got from https://replit.com/@BlackAmda/Queen-Amdi-QR-Code.",
             "required": true
         },
@@ -62,7 +62,7 @@
         "CAP": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₁"
+            "value": "кιиg αм∂α-χ
         },
         "IMGBB": {
             "description": "Paste your imgbb API to change ALIVE,Welcome,Bye pictures by a command. (Visit https://imgbb.com/ and signup there. And get an API key from https://api.imgbb.com/)",
@@ -82,7 +82,7 @@
         "ANTIBAD": {
             "description": "Activate Anti-Bad word for your groups. (Use true or false)",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "ANTIBUG": {
             "description": "Activate Anti-Bug sheild for your groups. And protect your groups by bug bots.(Use true or false)",
@@ -97,12 +97,13 @@
         "WELCOME_LOGO": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://i.ibb.co/d54sGdd/f2097d7ddc39.jpg"
+            "value": "<a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="0"></a>
+            "
         },
         "BYE_LOGO": {
             "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://i.ibb.co/pbjB2pS/93f527f9f2fb.jpg"
+            "value": "<a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="0"></a>"
         },
         "UNMUTE_MESSAGE": {
             "description": "Message received when unmuteing a group.",
@@ -132,7 +133,8 @@
         "PANEL_EMOJI": {
             "description": "You can change panel emojis. (Make sure to split emojis with / )",
             "required": true,
-            "value": "📘/📖"
+            "value": "⚡/💫"
+           
         },
         "DEBUG": {
             "description": "If you do not know this. Give it up.",
@@ -142,7 +144,7 @@
         "MENU": {
             "description": "Customizeable commands list request command. Keep panel if you don't want to change.",
             "required": true,
-            "value": "panel"
+            "value": "menu"
         },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
@@ -197,8 +199,15 @@
             "description": "Do you want details of YouTube songs and video? Type 'true' or 'false' (YT Info may be cause song download speed slow)",
             "required": true,
             "value": "true"
-        }
-    },
+        
+        
+           
+
+
+
+
+
+
     "addons": [{
       "plan": "heroku-postgresql"
     }],
