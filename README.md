@@ -49,7 +49,7 @@
 
 
 
-div align="center"><img src="https://profile-counter.glitch.me/dulensathsara/count.svg" /><br>Profile Viewers</div>
+><img src="https://profile-counter.glitch.me/dulensathsara/count.svg" /><br>Profile Viewers</div>
 
 
 
