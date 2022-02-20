@@ -39,9 +39,9 @@
 
 ### [Note : This repo will never update or maintain by nishen ]
  
-    <img src="<a href="https://ibb.co/Km84jZg"><img src="https://i.ibb.co/Km84jZg/VYCjwSM.jpg" alt="VYCjwSM" border="0"></a>">
-  
-  
+
+	
+
 	
 	
 
