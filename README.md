@@ -1,7 +1,7 @@
      
 
 
-    ƙιɳɠ αɱԃα-x ɯԋαƚʂαρρ υʂҽɾ Ⴆσƚ
+    king amda-X whatsApp user bot
 
 
 
