@@ -23,7 +23,7 @@
      
      
      
- https://i.ibb.co/vDNcbfK/IMG-20220220-190019-041.jpg
+ https://telegra.ph/K%C9%AAn%C9%A2%E1%B4%8D%E1%B4%85%E1%B4%80-02-20
 
 
 
