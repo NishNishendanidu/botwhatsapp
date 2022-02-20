@@ -96,13 +96,13 @@
         "WELCOME_LOGO": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://ibb.co/n6jyCpm
+            "value": "https://ibb.co/n6jyCpm"
             "
         },
         "BYE_LOGO": {
             "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://ibb.co/n6jyCpm
+            "value": "https://ibb.co/n6jyCpm"
         "UNMUTE_MESSAGE": {
             "description": "Message received when unmuteing a group.",
             "required": false,
