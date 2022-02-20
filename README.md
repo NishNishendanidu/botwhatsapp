@@ -73,10 +73,8 @@
 
 
 
-
-----
-
 ## QR CODE
+
 [![Run on Repl.it](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)](https://replit.com/@NishenDanidu1/king-AMDA-X#package.json)
 
 ## Deploy ⚡⚡king AMDA-X⚡⚡
