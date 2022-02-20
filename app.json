@@ -434,27 +434,16 @@
 
         },
 
-        "COFFEEHOUSE_API_KEY": {
-
-            "description": "Pass This Step!",
-
-            "required": false,
-
-            "value": "true"
-
-        }
-
+        
+            "
     },
 
-    "addons": [{
 
       "plan": "heroku-postgresql"
 
     }],
-
-    "buildpacks": [{
-
-      "url": "heroku-community/apt"
+ [{
+"
 
       
 
