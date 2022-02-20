@@ -1,11 +1,14 @@
 function successfullMessage(msg) {
-    return "✅ *QueenAmdi*:  ```" + msg + "```"
+    return "✅ *kingamda-x*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *QueenAmdi*:  ```" + msg + "```"
-}
+    
+  return "🛑 *kingamda-x
+
+                    *:  ```" + msg + "```"
+
 function infoMessage(msg) {
-    return "• *QueenAmdi :*  ```" + msg + "```"
+    return "• * kingamda-x:*  ```" + msg + "```"
 }
 
 
