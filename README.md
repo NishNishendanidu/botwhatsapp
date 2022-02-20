@@ -82,6 +82,8 @@ HAVE A FUN!
 
 <table>
 										<tbody>
+	
+
 											<tr>
 												<td><a sɪɢᴇᴅᴇʀɪᴇɴ"></a></td>
 											</tr>
@@ -95,7 +97,9 @@ Do not edit copyright messages!
 ### Disclaimer
 `WhatsApp` name, its variations and logo are registered trademarks on Facebook. We have nothing to do with the registered trademark.
 
-													
+	
+
+												
 													
 	
 
