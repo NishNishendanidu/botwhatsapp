@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Black Amda.
+/* Copyright (C) 2022 king amda-X⚡⚡
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-QueenAmdi - Black Amda
+king amda-X⚡⚡ - nishen danidu 
 */
 
 'use strict';
