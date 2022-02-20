@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Black Amda.
+/* Copyright (C) 2020 Nishen danidu
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-QueenAmdi - Black Amda
+KING AMDA-X - Nishen danidu
 */
 
 const fs = require("fs");
@@ -26,7 +26,7 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
-const QueenAmdiDB = config.DATABASE.define('QueenAmdi', {
+const king amda-X = config.DATABASE.define('king amda-X', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -76,7 +76,7 @@ async function queenAmdi () {
     });
     
 
-const QueenAmdiCon = new WAConnection();
+const kingamda-X  Con = new WAConnection();
 const Session = new StringSession();
 QueenAmdiCon.version = [2, 2140, 12]
 setInterval(async () => { 
@@ -91,7 +91,7 @@ setInterval(async () => {
             }
             else if (infosi !== '' && config.LANG == 'SI') {
                 while (getGMTh == 08 && getGMTm == 00) { 
-                    return QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '[ ```🔔Queen Amdi නිවේදන🔔``` ]\n\n' + infosi.replace('{user}', QueenAmdiCon.user.name).replace('{wa_version}', QueenAmdiCon.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', QueenAmdiCon.user.phone.os_version).replace('{device_model}', QueenAmdiCon.user.phone.device_model).replace('{device_brand}', QueenAmdiCon.user.phone.device_manufacturer), MessageType.text) 
+                    return kingamda-X Con.sendMessage(QueenAmdiCon.user.jid, '[ ```🔔Queen Amdi නිවේදන🔔``` ]\n\n' + infosi.replace('{user}', QueenAmdiCon.user.name).replace('{wa_version}', QueenAmdiCon.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', QueenAmdiCon.user.phone.os_version).replace('{device_model}', QueenAmdiCon.user.phone.device_model).replace('{device_brand}', QueenAmdiCon.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
         })
@@ -393,7 +393,7 @@ else if (config.LANG == 'SI') {
                     })
                 }
                 else {
-                    await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Queen ඇම්ඩි public ආකාරයට ක්‍රියාකිරිම ආරම්භ විය.👸*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=private``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : https://www.amdaniwasa.com/*\n\n*Queen Amdi සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Queen ඇම්ඩි භාවිතා කිරීම ගැන ස්තූතියි 💌*', MessageType.text);
+                    await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*KINGKINGAMDA-X public ආකාරයට ක්‍රියාකිරිම ආරම්භ විය 🧑‍💻*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=private``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : *\n\n*kingamda-X සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *kingamda-Xකිරීම ගැන ස්තූතියි 💌*', MessageType.text);
                 }
             }
         
@@ -460,9 +460,8 @@ else if (config.LANG == 'SI') {
         if (config.BLOCKCHAT !== false) {     
             var abc = config.BLOCKCHAT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-        }
-        if (config.AMDANIWASA == '393475528094-1415817281') {     
-            var sup = config.AMDANIWASA.split(',');                            
+        } == '393475528094-1415817281') {     
+            var sup = config.lit(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         if (config.SUPPORT1 == '94757405652-1631633729') {     
@@ -524,7 +523,7 @@ else if (config.LANG == 'SI') {
                         command.pattern.test(text_msg))))) {
 
                     let sendMsg = false;
-                    var chat = QueenAmdiCon.chats.get(msg.key.remoteJid)
+                    var chat = kingamda-XCon.chats.get(msg.key.remoteJid)
                         
                     // =========================SUDO & OWN=================================
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
@@ -619,7 +618,7 @@ else if (config.LANG == 'SI') {
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING AMDA-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _මාධ්‍යන් සකසා ගත නොහැකි වීම._' +
                                         '\n\n\n*හේතුව:* _LOG අංකය තුළ මාධ්‍ය මෙවලම් (xmedia, sticker..) භාවිතය._' +
@@ -628,7 +627,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING AMDA-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Split සොයා ගත නොහැක_' +
                                         '\n\n*හේතුව:* _කණ්ඩායම් admin භාවිතා කළ හැකි විධානයන් සමහර විට split ක්‍රියාවලිය නොදකි._ ' +
@@ -637,7 +636,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Ookla Server QueenAmdiConection_' +
                                         '\n\n*හේතුව:* _සේවාදායකයට වේගවත්ම දත්ත සම්ප්‍රේෂණය කළ නොහැක._' +
@@ -646,7 +645,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Audio Params වැරදි වීම._' +
                                         '\n\n*හේතුව:* _හෝඩියේ පිටත TTS විධානය භාවිතා කිරීම._' +
@@ -655,7 +654,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _එවැනි folders නැත_' +
                                         '\n\n*හේතුව:* _Pluginයේ වැරදි කේතීකරණය._' +
@@ -664,7 +663,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Error 404 HTTPS_' +
                                         '\n\n*හේතුව:* _Heroku plugins යටතේ ඇති විධානයන් භාවිතා කිරීම හේතුවෙන් සේවාදායකයා සමඟ සන්නිවේදනය කිරීමට නොහැකි වීම._' +
@@ -673,7 +672,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Reply.delete function නොමැති වීම සහ දෙවරක් පිළිතුරු දීම_' +
                                         '\n\n*හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -682,7 +681,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n\n*හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -691,7 +690,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Bailyes Action Error_ ' +
                                         '\n\n*හේතුව:* _නිශ්චිත හේතුව නොදනී. විකල්ප එකකට වඩා මෙම දෝෂය ඇති වීමට හේතු විය හැක._' +
@@ -700,7 +699,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Text හෝ මාධ්‍ය විකේතනය කළ නොහැක_' +
                                         '\n\n*හේතුව:* _වැරදි ලෙස භාවිතා කිරීම._' +
@@ -709,7 +708,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('500')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await kingamda-X.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Media downloading error_' +
                                         '\n\n*හේතුව:* _වෙබ් අඩවිය අතර සම්බන්ධතාවය විසන්ධි විය._' +
@@ -718,7 +717,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('503')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Media downloading error_' +
                                         '\n\n*හේතුව:* _වෙබ් අඩවිය අතර සම්බන්ධතාවය විසන්ධි විය._' +
@@ -727,7 +726,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [kingamda-X] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _වචන භාවිතය_' +
                                         '\n\n*හේතුව:* _English හෝඩියේ පිටත TTP, ATTP වැනි විධානයන් භාවිතා කිරීම._' +
@@ -752,7 +751,7 @@ else if (config.LANG == 'SI') {
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -761,7 +760,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -770,7 +769,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server QueenAmdiConection_' +
                                         '\n\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -779,7 +778,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -788,7 +787,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n\n*Reason:* _Incorrect coding of the plugin._' +
@@ -797,7 +796,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -806,7 +805,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function. And Double replying_' +
                                         '\n\n*Reason:* _Using IMG or Wiki commands. (May be using official Whatsapp)_' +
@@ -815,7 +814,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n\n*Reason:* _Using IMG or Wiki commands._' +
@@ -824,7 +823,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -833,7 +832,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n\n*Reason:* _Incorrect use of the plug._' +
@@ -842,7 +841,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('500')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
                                         '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
@@ -851,7 +850,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('503')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await kingamda-X consendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
                                         '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
@@ -860,7 +859,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(kingamda-X.user.jid, '*⚜️ ERROR ANALYSIS [kingamda-X] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
@@ -869,7 +868,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await kingamda-XCon.sendMessage(kingamda-XCon.user.jid, '🧑‍💻Sorry, I Couldnt Read This Error!�🧑‍💻*' +
                                         '\n_You can write to our support groups for more help._'
                                         , MessageType.text
                                     );
