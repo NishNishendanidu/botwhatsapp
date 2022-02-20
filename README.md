@@ -5,7 +5,7 @@
      
      
      
-  <img src="https://i.ibb.co/r3wmpwr/LOGO.jpg" width="300" height="300">
+  <img src <a href="https://ibb.co/pKFG567"><img src="https://i.ibb.co/pKFG567/King-amda-x.jpg" alt="King-amda-x" border="0"></a>
   <h1⚡⚡king AMDA-X⚡⚡</h1>
 </div>
 <p align="center">
