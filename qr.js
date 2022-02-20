@@ -12,7 +12,7 @@ const {WAConnection} = require('@adiwajshing/baileys');
 const {StringSession} = require('./queenamdi/');
 const fs = require('fs');
 
-async function queenAmdi () {
+async function king amda-X () {
     const conn = new WAConnection();
     const Session = new StringSession();  
     conn.version = [2, 2126, 14]
@@ -29,15 +29,15 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 
 	conn.on('open', async () => {
 		console.log(
-			chalk.green.bold('Queen Amdi QR Code: '),
-			'AMDI;;;' +
+			chalk.green.bold('king amda-X: '),
+			'amdaI;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				)
 		);
 		await conn.sendMessage(
 			conn.user.jid,
-			'AMDI;;;' +
+			'AMDA;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				),
@@ -72,5 +72,5 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 	await conn.connect();
 }
 
-queenAmdi()
+king amda-x()
 
