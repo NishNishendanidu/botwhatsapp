@@ -23,7 +23,7 @@
      
      
      
- https://t.me/HostImageBot?start=Pic6788djuu4D6uljK
+ https://i.ibb.co/vDNcbfK/IMG-20220220-190019-041.jpg
 
 
 
