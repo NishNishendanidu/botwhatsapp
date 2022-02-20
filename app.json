@@ -1,215 +1,462 @@
 {
-    "name": "кιиg αм∂α-χ",
-    "description": "кιиg αм∂α-χis a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
-    "logo": "https://ibb.co/n6jyCpm"
-    "repository": "https://github.com/NishNishendanidu/botwhatsapp.git",
-    "website":   "https://dashboard.heroku.com/apps/",
-    "success_url": "welcome",
+
+    "name": "kingamda-x",
+
+    "description": "KING AMDA-X whatsapp Bot",
+
+    "logo": "https://ibb.co/n6jyCpm",
+
+    "keywords": ["king", "kingamda-x"],
+
     "stack": "container",
-    
-        "kingamdax_SESSION": {
-            "description": "Paste your QR session that you got from https://replit.com/@shenbro/kingamda-x QR-Code.",
+
+    "env": {
+
+        "KING_AMDA-X_SESSION": {
+
+            "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
+
             "required": true
+
         },
-        "SUDO": {
-            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
-            "required": false
-        },
+
         "LANGUAGE": {
-            "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
+
+            "description": "Enter the language you want (EN or SI), ඔබට අවශ්‍ය භාෂාව ඇතුලත් කරන්න.. (EN හො SI)",
+
             "required": true,
-            "value": "EN"
+
+            "value": "en"
+
         },
-        "AUTO_BIO": {
-            "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about.",
+
+        "S_DOWN_SONG": {
+
+            "description": "Enter the audio download message... ශබ්ද බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+
             "required": true,
+
+            "value": "_*I'm Searching your song*_ ✨➾🔎"
+
+        },
+
+        "S_UP_SONG": {
+
+            "description": "Enter the audio upload message... ශබ්ද උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+
+            "required": true,
+
+            "value": "_*Im Uploading your song*_ ✨➾🎲"
+
+        },
+
+        "S_DOWN_VID": {
+
+            "description": "Enter the video download message... වීඩියෝ බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+
+            "required": true,
+
+            "value": "_*I'm Bringing your video*_ ✨➾🔎"
+
+        },
+
+        "S_UP_VID": {
+
+            "description": "Enter the video upload message... වීඩියෝ උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+
+            "required": true,
+
+            "value": "_*Im Uploading your video*_ ✨➾🎲"
+
+        },
+
+        "MENU_HEADER": {
+
+            "description": "ITS CHANGE YOUR CMD LIST HEADER",
+
+            "required": true,
+
+            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃   *THIS IS KING AMDA-X WHATSAPP BOT*\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n THIS IS KINGAMDA-X CMD MENU"
+
+        },
+
+        "GROUP_MANAGE": {
+
+            "description": "If you want the admin in the group to be able to use the admin command too, enter true. සමූහය තුල සිටින ඇඩ්මින් හටද ඇඩ්මින් විදාන භාවිතා කිරීමට හැකි සේ සැකසීම අවශ්‍යයි නම් true ලෙස ඇතුලත් කරන්න",
+
+            "required": true,
+
             "value": "false"
+
         },
-        "HANDLERS": {
-            "description": "Enter bot prefix to use commands.",
+
+        "ANTI_LINK": {
+
+            "description": "If someone inserts a link into the group and wants to remove him from the group, enter true..සමූහයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දැමීමට අවශ්‍ය නම් true ලෙස ඇතුලත් කරන්න",
+
             "required": true,
-            "value": "^[.!]"
-        },
-        "CHAT_BOT": {
-            "description": "To enable / disable the AI chat bot. Use true to enable AI chat bot and false to deactivate AI chat bot.",
-            "required": true,
-            "value": "true"
-        },
-        "SEND_READ": {
-            "description": "Need to show user whether bot message seen or not?",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU": {
-            "description": "Heroku",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
-            "required": true
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Use the same App name as first.",
-            "required": true
-        },
-        "SONG_TYPE": {
-            "description": "Choose your .song file type.(document or audio)",
-            "required": true,
-            "value": "document"
-        },
-        "CAP": {
-            "description": "Set your caption under medias.",
-            "required": true,
-            "value": "Kɪnɢᴍᴅᴀ"
-        },
-        "IMGBB": {
-            "description": "Paste your imgbb API to change ALIVE,Welcome,Bye pictures by a command. (Visit https://imgbb.com/ and signup there. And get an API key from https://api.imgbb.com/)",
-            "required": false,
-            "value": ""
-        },
-        "MUTE_MESSAGE": {
-            "description": "Message received when mute a group. If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "BLOCK_CHAT": {
-            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
-            "required": false,
-            "value": "no chats added"
-        },
-        "ANTIBAD": {
-            "description": "Activate Anti-Bad word for your groups. (Use true or false)",
-            "required": true,
-            "value": "true"
-        },
-        "ANTIBUG": {
-            "description": "Activate Anti-Bug sheild for your groups. And protect your groups by bug bots.(Use true or false)",
-            "required": true,
+
             "value": "false"
+
         },
+
+        "INBO_BLOCK": {
+
+            "description": "INBOX BLOCKING SYSTEM.. ඉන්බොක්ස් බ්ලොක් කිරීමේ පද්දතිය.. eg true/all or true/cmd or false",
+
+            "required": true,
+
+            "value": "false"
+
+        },
+
+        "SPAM_CMD": {
+
+            "description": "Changeble Spam CMD... ස්පෑම් සදහා spam ස්දානය ලබා දෙන්න",
+
+            "required": true,
+
+            "value": "spam"
+
+        },
+
+        "BAD_KICK": {
+
+            "description": "BAD WORD &  GROUP LINK KICKING SYSTEM.. අසබ්‍ය වචන හා ගෲප් ලින්ක් දමන්නන් ඉවත් කිරීමේ පද්දතිය",
+
+            "required": true,
+
+            "value": "true"
+
+        },
+
         "ALIVE_LOGO": {
-            "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
-            "required": true,
-            "value": "https://i.ibb.co/0h6pq4j/6fba2dec0129.jpg"
-        },
-        "WELCOME_LOGO": {
-            "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
-            "required": true,
-            "value": "https://ibb.co/n6jyCpm"
-            
-        },
-        "BYE_LOGO": {
-            "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
-            "required": true,
-            "value": "https://ibb.co/n6jyCpm"
-        "UNMUTE_MESSAGE": {
-            "description": "Message received when unmuteing a group.",
-            "required": false,
-            "value": "default"
-        },
-        "BLOCK_MESSAGE": {
-            "description": "Modifiable chat block notification. If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "UNBLOCK_MESSAGE": {
-            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "WORK_TYPE": {
-            "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
-            "required": true,
-            "value": "private"
-        },       
-        "RULES": {
-            "description": "You can set rules display to your groups.",
-            "required": true,
-            "value": "default"
-        },
-        "PANEL_EMOJI": {
-            "description": "You can change panel emojis. (Make sure to split emojis with / )",
-            "required": true,
-            "value": "⚡/💫"
-           
-        },
-        "DEBUG": {
-            "description": "If you do not know this. Give it up.",
-            "required": true,
-            "value": "false"
-        },
-        "MENU": {
-            "description": "Customizeable commands list request command. Keep panel if you don't want to change.",
-            "required": true,
-            "value": "menu"
-        },
-        "REMOVE_BG_API_KEY": {
-            "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
+
+            "description": "Add Your Alive Logo",
+
             "required": false
+
         },
-        "ALIVE_MESSAGE": {
-            "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
-            "required": false,
-            "value": "default"
-        },
-        "BAN_MESSAGE": {
-            "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "ADD_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "KICKME_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "PROMOTE_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "DEMOTE_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "AFK_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
-            "required": false,
-            "value": "default"
-        },
-        "NO_ONLINE": {
-            "description": "This is not necessarily the case.",
-            "required": false,
-            "value": "true"
-        },
-        "COFFEEHOUSE_API_KEY": {
-            "description": "Give it up. We give you this.",
-            "required": false,
-            "value": "true"
-        },
-        "YT_INFO": {
-            "description": "Do you want details of YouTube songs and video? Type 'true' or 'false' (YT Info may be cause song download speed slow)",
+
+        "WARN_MSG": {
+
+            "description": "WANR KICK MASSAGE .. වර්න් ලබා දී කික් වන විට යෙදිය යුතු පණිවිඩය ඇතුලත් කරන්න",
+
             "required": true,
+
+            "value": "*Your Times over Now.. So Good Bye*"
+
+        },
+
+        "WARN_COUNT": {
+
+            "description": "Input Warn Count",
+
+            "required": true,
+
+            "value": "3"
+
+        },
+
+        "HANDLERS": {
+
+            "description": "For commands.",
+
+            "required": true,
+
+            "value": "^[.!;]"
+
+        },
+
+        "CAPTION_NAME": {
+
+            "description": "කැප්ශන් එක ඇතුලත් කරන්න... Enter the Caption",
+
+            "required": false
+
+         },
+
+       
+
+         },
+
+        "OWNER_SHIP": {
+
+            "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න ==> Input The Owner Name",
+
+            "required": false,
+
+            "value": "NISHEN DANIDU"
+
+        },
+
+        
+
+        "YOUR_BOT_NAME": {
+
+            "description": "බොට්ගේ නාමය ඇතුලත් කරන්න ==> Input The Bot Name",
+
+            "required": false,
+
+            "value": "✬ KING AMDA-X✬"
+
+        },
+
+        "NO_LOG": {
+
+            "description": "Set true if you don't want to see error log.",
+
+            "required": true,
+
+            "value": "false"
+
+        },
+
+        "SEND_READ": {
+
+            "description": "Write true if you want to throw seen.",
+
+            "required": true,
+
             "value": "true"
-        
-        
-           
 
+        },
 
+        "HEROKU": {
 
+            "description": "If it is running in Heroku, type true.",
 
+            "required": true,
 
+            "value": "true"
+
+        },
+
+        "HEROKU_API_KEY": {
+
+            "description": "Heroku API Key.",
+
+            "required": true
+
+        },
+
+        "MUTE_MESSAGE": {
+
+            "description": "Customizable Mute Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "UNMUTE_MESSAGE": {
+
+            "description": "Customizable Unmute Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "BLOCK_MESSAGE": {
+
+            "description": "Customizable Block Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "UNBLOCK_MESSAGE": {
+
+            "description": "Customizable Unblock Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "WORK_TYPE": {
+
+            "description": "Sew Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+
+            "required": true,
+
+            "value": "public"
+
+        },
+
+        "HEROKU_APP_NAME": {
+
+            "description": "Heroku APP Name.",
+
+            "required": true
+
+        },
+
+        "DEBUG": {
+
+            "description": "Geliştiricilere özeldir.",
+
+            "required": true,
+
+            "value": "false"
+
+        },
+
+        "REMOVE_BG_API_KEY": {
+
+            "description": "Get API Key. https://remove.bg",
+
+            "required": false
+
+        },
+
+        "ALIVE_MESSAGE": {
+
+            "description": "Customizable Alive Message! Use => default, to change back.  include {status} & {phoneinfo} & {sever} & {ratings} to add about chat & phone info & saver info & Your Ratings to your alive message",
+
+            "required": false,
+
+            "value": "Hello I Am Alive\n{ratings}\n {status} \n {phoneinfo} \n {sever}"
+
+        },
+
+        "BAN_MESSAGE": {
+
+            "description": "Customizable Ban Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "ADD_MESSAGE": {
+
+            "description": "Customizable Add Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "KICKME_MESSAGE": {
+
+            "description": "Customizable Kickme Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "PROMOTE_MESSAGE": {
+
+            "description": "Customizable Promote Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "DEMOTE_MESSAGE": {
+
+            "description": "Customizable Demote Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "AFK_MESSAGE": {
+
+            "description": "Customizable AFK Message! Use => default, to change back.",
+
+            "required": false,
+
+            "value": "default"
+
+        },
+
+        "GAN_IMAGE": {
+
+            "description": "Type image link for Gan Style plugin.",
+
+            "required": true,
+
+            "value": "https://i.hizliresim.com/loUtAb.jpg"
+
+        },
+
+        "GROUP_MANAGE": {
+
+            "description": "Type true if you need allow admin to use admin command",
+
+            "required": false,
+
+            "value": "false"
+
+        },
+
+        "CLONE_MSG": {
+
+            "description": "This MSG will display after the clone end",
+
+            "required": false
+
+        },
+
+        "NO_ONLINE": {
+
+            "description": "Type true if you don't want to appear online.",
+
+            "required": false,
+
+            "value": "false"
+
+        },
+
+        "SEW_AI": {
+
+            "description": "Artificial Intelligence Chat Bot!",
+
+            "required": false,
+
+            "value": "false"
+
+        },
+
+        "COFFEEHOUSE_API_KEY": {
+
+            "description": "Pass This Step!",
+
+            "required": false,
+
+            "value": "true"
+
+        }
+
+    },
 
     "addons": [{
+
       "plan": "heroku-postgresql"
+
     }],
+
     "buildpacks": [{
+
       "url": "heroku-community/apt"
+
       }]
+
   }
+         
