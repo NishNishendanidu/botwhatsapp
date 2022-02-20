@@ -24,7 +24,7 @@
      
      
      
- <a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="0"></a>
+ <a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="201992992"></a>
 
 
 
