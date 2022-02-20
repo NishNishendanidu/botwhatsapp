@@ -18,7 +18,7 @@
 
 
 
-<img src="https://i.ibb.co/vDNcbfK/IMG-20220220-190019-041.jpg" width="300" height="300">
+<img src="https://i.ibb.co/Z6XBp5j/Photo-1859807427.jpg" width="300" height="300">
 
 
 
