@@ -23,7 +23,7 @@
      
      
      
- <a href="https://ibb.co/n6jyCpm"><img src="https://i.ibb.co/n6jyCpm/Screenshot-20220220-125416-Chrome.png" alt="Screenshot-20220220-125416-Chrome" border="201992992"></a>
+ https://t.me/HostImageBot?start=Pic6788djuu4D6uljK
 
 
 
